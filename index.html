@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Farm Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌱 Smart Farm Dashboard</h1>
+        <p>Monitor your farm conditions in real time</p>
+    </header>
+
+    <main>
+
+        <section class="dashboard">
+
+            <div class="card">
+                <h2>🌡️ Temperature</h2>
+                <p id="temperature">28°C</p>
+                <span>Normal</span>
+            </div>
+
+            <div class="card">
+                <h2>💧 Soil Moisture</h2>
+                <p id="moisture">65%</p>
+                <span>Good</span>
+            </div>
+
+            <div class="card">
+                <h2>☀️ Light Level</h2>
+                <p id="light">78%</p>
+                <span>Good</span>
+            </div>
+
+            <div class="card">
+                <h2>🚰 Water Pump</h2>
+                <p id="pump">OFF</p>
+                <button onclick="togglePump()">Turn Pump ON</button>
+            </div>
+
+        </section>
+
+        <section class="status">
+            <h2>🌾 Crop Status</h2>
+            <p id="cropStatus">Crop conditions are healthy.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Smart Farm Dashboard | IoT Agriculture Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
